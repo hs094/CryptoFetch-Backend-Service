@@ -150,7 +150,7 @@ npm install
 MONGO_USERNAME=<your-mongodb-username>
 MONGO_PASSWORD=<your-mongodb-password>
 MONGO_DATABASE=<your-mongodb-database>
-COINGECKO_API_URL=https://api.coingecko.com/api/v3/simple/price
+COINGECKO_API_URL=https://api.coingecko.com/api/v3/simple/price?x_cg_demo_api_key=
 COINGECKO_API_KEY=<your-coingecko-api-key>
 PORT=3000
 ```

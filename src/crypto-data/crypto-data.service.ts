@@ -68,7 +68,7 @@ export class CryptoDataService {
       );
     }
   }
-  @Cron(CronExpression.EVERY_2_HOURS)
+  @Cron(CronExpression.EVERY_MINUTE)
   async handleCron() {
     this.logger.debug('Fetching and Saving Crypto Data');
     await this.fetchAndSaveCryptoData();
