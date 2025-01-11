@@ -3,8 +3,8 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ScheduleModule } from '@nestjs/schedule';
 import { AppController } from './app.controller';
-import { StatsController } from './crypto-data/controller/stats.controller';
-import { DeviationController } from './crypto-data/controller/deviation.controller';
+import { StatsController } from './controller/stats.controller';
+import { DeviationController } from './controller/deviation.controller';
 import { AppService } from './app.service';
 import { CryptoDataModule } from './crypto-data/crypto-data.module';
 

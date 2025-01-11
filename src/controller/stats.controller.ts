@@ -1,5 +1,5 @@
 import { Body, Controller, Post } from '@nestjs/common';
-import { CryptoDataService } from '../crypto-data.service';
+import { CryptoDataService } from '../crypto-data/crypto-data.service'
 import { Logger } from '@nestjs/common';
 
 @Controller('stats')
