@@ -9,6 +9,7 @@ export class StatsController {
 
   @Post()
   async getStats(@Body('coin') coin: string) {
+    console.log(`Received coin parameter: ${coin}`);
     if (!coin) {
       this.logger.error('Coin parameter is missing, defaulting to "bitcoin"');
       coin = 'bitcoin'; // Default to 'bitcoin'
