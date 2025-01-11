@@ -28,6 +28,26 @@
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Project Description
+### Deployment
+The Application is Deployed on [**Railway**](https://railway.com/project/9f4cb147-fa48-4cd4-8942-eb47adc0cf1f?environmentId=95c9c3a6-75a7-4e27-8b2c-b054c2f39218). 
+
+### Example
+
+<div style="display: flex; justify-content: space-around;">
+
+  <figure>
+    <img src="./public/devi-demo.png" alt="Image 1" width="800" />
+    <figcaption>A Sample Request made to Deviation Endpoint for matic-network</figcaption>
+  </figure>
+
+  <figure>
+    <img src="./public/stats-demo.png" alt="Image 2" width="800" />
+    <figcaption>A Sample Request made to Stats Endpoint for ethereum</figcaption>
+  </figure>
+
+</div>
+
+
 
 ### Background Services
 
@@ -171,5 +191,3 @@ npm run test:e2e
 # test coverage
 npm run test:cov
 ```
-
-### Deployment
