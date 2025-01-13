@@ -1,6 +1,6 @@
-# <div align="center">KoinX Backend Internship Assignment</div>
+# <div align="center">CryptoFetch Backend Service</div>
 
-> The `koinx-crypto-service` is a NestJS-based backend server that fetches the latest cryptocurrency prices, calculates statistics and deviations, and provides endpoints for retrieving this data.
+> The `crypto-fetch-service` is a NestJS-based backend server that fetches the latest cryptocurrency prices, calculates statistics and deviations, and provides endpoints for retrieving this data.
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -116,7 +116,8 @@ The MongoDB Store is used to persist the fetched cryptocurrency data. The data i
   "deviation": 1500
 }
 ```
-### Projct Structure
+### Project Structure
+
 ```
   .env
   .gitignore
@@ -146,12 +147,12 @@ The MongoDB Store is used to persist the fetched cryptocurrency data. The data i
   tsconfig.build.json
   tsconfig.json
 ```
-* app.module.ts: The main module of the application.
-* koinx-crypto-service/src/app.controller.ts: The main controller of the application.
-* koinx-crypto-service/src/app.service.ts: The main service of the application.
-* src/controller/: Contains the controllers for the API endpoints.
-* src/crypto-data/: Contains the module, service, and schema for handling cryptocurrency data.
-* koinx-crypto-service/src/main.ts: The entry point of the application.
+* `app.module.ts`: The main module of the application.
+* `src/app.controller.ts`: The main controller of the application.
+* `src/app.service.ts`: The main service of the application.
+* `src/controller/`: Contains the controllers for the API endpoints.
+* `src/crypto-data/`: Contains the module, service, and schema for handling cryptocurrency data.
+* `src/main.ts`: The entry point of the application.
 
 ## Getting Started
 
